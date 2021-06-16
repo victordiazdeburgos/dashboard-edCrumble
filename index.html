@@ -230,8 +230,6 @@
                         <div class="d-flex justify-content-center">
                             <select class="dropdown-topic select-box" id="ddTopics"
                                 onchange="updateTopic(chartdesignsEdLevelTopic)">
-                                <!-- <select class="dropdown-topic select-box" id="ddTopics"
-                                onchange="readData(jsonData.then())"> -->
                                 <option value="0">General programs</option>
                                 <option value="1">Education</option>
                                 <option value="2">Agriculture</option>
@@ -252,13 +250,6 @@
 
     <!-- javascript library chart.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js"></script>
-
-    <!-- plugin to be able to zoom charts -->
-    <!-- <script src="../Plugins/chartjs-plugin-zoom/dist/chartjs-plugin-zoom.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script> -->
-
-    <!-- plugin to add extra funtionalities to the zoom plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 
     <!-- Bootstrap javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
@@ -295,7 +286,8 @@
             listTopCommenters();
             listMostViewed();
             listMostReused();
-        }, 1);
+
+        }, 15);
 
     </script>
 
