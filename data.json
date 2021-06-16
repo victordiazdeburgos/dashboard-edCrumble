@@ -1,0 +1,1427 @@
+{
+    "numUsers": [
+        {
+            "month": "Jun",
+            "new": 22
+        },
+        {
+            "month": "May",
+            "new": 14
+        },
+        {
+            "month": "Apr",
+            "new": 19
+        },
+        {
+            "month": "Mar",
+            "new": 26
+        },
+        {
+            "month": "Feb",
+            "new": 20
+        },
+        {
+            "month": "Jan",
+            "new": 14
+        },
+        {
+            "month": "Dec",
+            "new": 3
+        },
+        {
+            "month": "Nov",
+            "new": 17
+        },
+        {
+            "month": "Oct",
+            "new": 12
+        },
+        {
+            "month": "Sep",
+            "new": 28
+        },
+        {
+            "month": "Aug",
+            "new": 24
+        },
+        {
+            "month": "Jul",
+            "new": 12
+        },
+        {
+            "month": "Jun",
+            "new": 257
+        }
+    ],
+    "numVisits": [
+        {
+            "month": "Jun",
+            "new": 64
+        },
+        {
+            "month": "May",
+            "new": 50
+        },
+        {
+            "month": "Apr",
+            "new": 30
+        },
+        {
+            "month": "Mar",
+            "new": 49
+        },
+        {
+            "month": "Feb",
+            "new": 44
+        },
+        {
+            "month": "Jan",
+            "new": 65
+        },
+        {
+            "month": "Dec",
+            "new": 22
+        },
+        {
+            "month": "Nov",
+            "new": 44
+        },
+        {
+            "month": "Oct",
+            "new": 44
+        },
+        {
+            "month": "Sep",
+            "new": 68
+        },
+        {
+            "month": "Aug",
+            "new": 50
+        },
+        {
+            "month": "Jul",
+            "new": 32
+        },
+        {
+            "month": "Jun",
+            "new": 1022
+        }
+    ],
+    "numDesigns": [
+        {
+            "month": "Jun",
+            "new": 12
+        },
+        {
+            "month": "May",
+            "new": 25
+        },
+        {
+            "month": "Apr",
+            "new": 14
+        },
+        {
+            "month": "Mar",
+            "new": 9
+        },
+        {
+            "month": "Feb",
+            "new": 12
+        },
+        {
+            "month": "Jan",
+            "new": 24
+        },
+        {
+            "month": "Dec",
+            "new": 35
+        },
+        {
+            "month": "Nov",
+            "new": 19
+        },
+        {
+            "month": "Oct",
+            "new": 28
+        },
+        {
+            "month": "Sep",
+            "new": 24
+        },
+        {
+            "month": "Aug",
+            "new": 39
+        },
+        {
+            "month": "Jul",
+            "new": 10
+        },
+        {
+            "month": "Jun",
+            "new": 467
+        }
+    ],
+    "designsTopic": {
+        "topicMonth": {
+            "General programs": [
+                {
+                    "month": "Jun",
+                    "new": 5
+                },
+                {
+                    "month": "May",
+                    "new": 0
+                },
+                {
+                    "month": "Apr",
+                    "new": 4
+                },
+                {
+                    "month": "Mar",
+                    "new": 4
+                },
+                {
+                    "month": "Feb",
+                    "new": 2
+                },
+                {
+                    "month": "Jan",
+                    "new": 4
+                },
+                {
+                    "month": "Dec",
+                    "new": 2
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 7
+                },
+                {
+                    "month": "Sep",
+                    "new": 3
+                },
+                {
+                    "month": "Aug",
+                    "new": 1
+                },
+                {
+                    "month": "Jul",
+                    "new": 4
+                },
+                {
+                    "month": "Jun",
+                    "new": 87
+                }
+            ],
+            "Education": [
+                {
+                    "month": "Jun",
+                    "new": 0
+                },
+                {
+                    "month": "May",
+                    "new": 3
+                },
+                {
+                    "month": "Apr",
+                    "new": 1
+                },
+                {
+                    "month": "Mar",
+                    "new": 5
+                },
+                {
+                    "month": "Feb",
+                    "new": 2
+                },
+                {
+                    "month": "Jan",
+                    "new": 4
+                },
+                {
+                    "month": "Dec",
+                    "new": 6
+                },
+                {
+                    "month": "Nov",
+                    "new": 6
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 1
+                },
+                {
+                    "month": "Aug",
+                    "new": 0
+                },
+                {
+                    "month": "Jul",
+                    "new": 5
+                },
+                {
+                    "month": "Jun",
+                    "new": 87
+                }
+            ],
+            "Agriculture": [
+                {
+                    "month": "Jun",
+                    "new": 2
+                },
+                {
+                    "month": "May",
+                    "new": 1
+                },
+                {
+                    "month": "Apr",
+                    "new": 3
+                },
+                {
+                    "month": "Mar",
+                    "new": 6
+                },
+                {
+                    "month": "Feb",
+                    "new": 0
+                },
+                {
+                    "month": "Jan",
+                    "new": 2
+                },
+                {
+                    "month": "Dec",
+                    "new": 3
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 1
+                },
+                {
+                    "month": "Sep",
+                    "new": 6
+                },
+                {
+                    "month": "Aug",
+                    "new": 2
+                },
+                {
+                    "month": "Jul",
+                    "new": 2
+                },
+                {
+                    "month": "Jun",
+                    "new": 87
+                }
+            ],
+            "Services": [
+                {
+                    "month": "Jun",
+                    "new": 4
+                },
+                {
+                    "month": "May",
+                    "new": 3
+                },
+                {
+                    "month": "Apr",
+                    "new": 1
+                },
+                {
+                    "month": "Mar",
+                    "new": 0
+                },
+                {
+                    "month": "Feb",
+                    "new": 6
+                },
+                {
+                    "month": "Jan",
+                    "new": 4
+                },
+                {
+                    "month": "Dec",
+                    "new": 2
+                },
+                {
+                    "month": "Nov",
+                    "new": 0
+                },
+                {
+                    "month": "Oct",
+                    "new": 7
+                },
+                {
+                    "month": "Sep",
+                    "new": 1
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 5
+                },
+                {
+                    "month": "Jun",
+                    "new": 37
+                }
+            ],
+            "Health and welfare": [
+                {
+                    "month": "Jun",
+                    "new": 2
+                },
+                {
+                    "month": "May",
+                    "new": 9
+                },
+                {
+                    "month": "Apr",
+                    "new": 2
+                },
+                {
+                    "month": "Mar",
+                    "new": 4
+                },
+                {
+                    "month": "Feb",
+                    "new": 6
+                },
+                {
+                    "month": "Jan",
+                    "new": 1
+                },
+                {
+                    "month": "Dec",
+                    "new": 5
+                },
+                {
+                    "month": "Nov",
+                    "new": 6
+                },
+                {
+                    "month": "Oct",
+                    "new": 0
+                },
+                {
+                    "month": "Sep",
+                    "new": 3
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 1
+                },
+                {
+                    "month": "Jun",
+                    "new": 63
+                }
+            ],
+            "Humanities and art": [
+                {
+                    "month": "Jun",
+                    "new": 5
+                },
+                {
+                    "month": "May",
+                    "new": 2
+                },
+                {
+                    "month": "Apr",
+                    "new": 0
+                },
+                {
+                    "month": "Mar",
+                    "new": 6
+                },
+                {
+                    "month": "Feb",
+                    "new": 2
+                },
+                {
+                    "month": "Jan",
+                    "new": 8
+                },
+                {
+                    "month": "Dec",
+                    "new": 4
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 1
+                },
+                {
+                    "month": "Sep",
+                    "new": 2
+                },
+                {
+                    "month": "Aug",
+                    "new": 2
+                },
+                {
+                    "month": "Jul",
+                    "new": 6
+                },
+                {
+                    "month": "Jun",
+                    "new": 41
+                }
+            ],
+            "Social sciences, business and law": [
+                {
+                    "month": "Jun",
+                    "new": 5
+                },
+                {
+                    "month": "May",
+                    "new": 2
+                },
+                {
+                    "month": "Apr",
+                    "new": 6
+                },
+                {
+                    "month": "Mar",
+                    "new": 0
+                },
+                {
+                    "month": "Feb",
+                    "new": 0
+                },
+                {
+                    "month": "Jan",
+                    "new": 1
+                },
+                {
+                    "month": "Dec",
+                    "new": 5
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 1
+                },
+                {
+                    "month": "Aug",
+                    "new": 0
+                },
+                {
+                    "month": "Jul",
+                    "new": 2
+                },
+                {
+                    "month": "Jun",
+                    "new": 19
+                }
+            ],
+            "Engineering, manufacturing and construction": [
+                {
+                    "month": "Jun",
+                    "new": 2
+                },
+                {
+                    "month": "May",
+                    "new": 2
+                },
+                {
+                    "month": "Apr",
+                    "new": 2
+                },
+                {
+                    "month": "Mar",
+                    "new": 5
+                },
+                {
+                    "month": "Feb",
+                    "new": 1
+                },
+                {
+                    "month": "Jan",
+                    "new": 0
+                },
+                {
+                    "month": "Dec",
+                    "new": 5
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 7
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 0
+                },
+                {
+                    "month": "Jun",
+                    "new": 54
+                }
+            ],
+            "Science": [
+                {
+                    "month": "Jun",
+                    "new": 2
+                },
+                {
+                    "month": "May",
+                    "new": 6
+                },
+                {
+                    "month": "Apr",
+                    "new": 1
+                },
+                {
+                    "month": "Mar",
+                    "new": 5
+                },
+                {
+                    "month": "Feb",
+                    "new": 4
+                },
+                {
+                    "month": "Jan",
+                    "new": 3
+                },
+                {
+                    "month": "Dec",
+                    "new": 0
+                },
+                {
+                    "month": "Nov",
+                    "new": 0
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 1
+                },
+                {
+                    "month": "Aug",
+                    "new": 4
+                },
+                {
+                    "month": "Jul",
+                    "new": 5
+                },
+                {
+                    "month": "Jun",
+                    "new": 47
+                }
+            ]
+        },
+        "topicEdLevel": {
+            "Early childhood education": {
+                "General programs": 1,
+                "Education": 3,
+                "Agriculture": 4,
+                "Services": 1,
+                "Health and welfare": 0,
+                "Humanities and art": 9,
+                "Social sciences, business and law": 1,
+                "Engineering, manufacturing and construction": 5,
+                "Science": 1
+            },
+            "Primary education": {
+                "General programs": 3,
+                "Education": 8,
+                "Agriculture": 7,
+                "Services": 1,
+                "Health and welfare": 2,
+                "Humanities and art": 2,
+                "Social sciences, business and law": 6,
+                "Engineering, manufacturing and construction": 5,
+                "Science": 7
+            },
+            "Lower secondary education": {
+                "General programs": 7,
+                "Education": 5,
+                "Agriculture": 4,
+                "Services": 1,
+                "Health and welfare": 2,
+                "Humanities and art": 7,
+                "Social sciences, business and law": 4,
+                "Engineering, manufacturing and construction": 5,
+                "Science": 0
+            },
+            "Upper secondary education": {
+                "General programs": 7,
+                "Education": 5,
+                "Agriculture": 9,
+                "Services": 8,
+                "Health and welfare": 1,
+                "Humanities and art": 7,
+                "Social sciences, business and law": 2,
+                "Engineering, manufacturing and construction": 5,
+                "Science": 3
+            },
+            "Post-secondary non-tertiary education": {
+                "General programs": 7,
+                "Education": 5,
+                "Agriculture": 0,
+                "Services": 1,
+                "Health and welfare": 6,
+                "Humanities and art": 4,
+                "Social sciences, business and law": 1,
+                "Engineering, manufacturing and construction": 5,
+                "Science": 3
+            },
+            "Short-cycle tertiaty education": {
+                "General programs": 1,
+                "Education": 4,
+                "Agriculture": 1,
+                "Services": 1,
+                "Health and welfare": 1,
+                "Humanities and art": 2,
+                "Social sciences, business and law": 3,
+                "Engineering, manufacturing and construction": 7,
+                "Science": 9
+            },
+            "Bachelor or equivalent": {
+                "General programs": 1,
+                "Education": 5,
+                "Agriculture": 4,
+                "Services": 1,
+                "Health and welfare": 1,
+                "Humanities and art": 6,
+                "Social sciences, business and law": 6,
+                "Engineering, manufacturing and construction": 2,
+                "Science": 7
+            },
+            "Master or equivalent": {
+                "General programs": 2,
+                "Education": 4,
+                "Agriculture": 5,
+                "Services": 1,
+                "Health and welfare": 1,
+                "Humanities and art": 2,
+                "Social sciences, business and law": 4,
+                "Engineering, manufacturing and construction": 1,
+                "Science": 7
+            },
+            "Doctoral or equivalent": {
+                "General programs": 6,
+                "Education": 7,
+                "Agriculture": 4,
+                "Services": 1,
+                "Health and welfare": 1,
+                "Humanities and art": 2,
+                "Social sciences, business and law": 3,
+                "Engineering, manufacturing and construction": 7,
+                "Science": 3
+            }
+        }
+    },
+    "designsEdLevel": {
+        "edLevelMonth": {
+            "Early childhood education": [
+                {
+                    "month": "Jun",
+                    "new": 4
+                },
+                {
+                    "month": "May",
+                    "new": 5
+                },
+                {
+                    "month": "Apr",
+                    "new": 1
+                },
+                {
+                    "month": "Mar",
+                    "new": 6
+                },
+                {
+                    "month": "Feb",
+                    "new": 3
+                },
+                {
+                    "month": "Jan",
+                    "new": 4
+                },
+                {
+                    "month": "Dec",
+                    "new": 4
+                },
+                {
+                    "month": "Nov",
+                    "new": 1
+                },
+                {
+                    "month": "Oct",
+                    "new": 0
+                },
+                {
+                    "month": "Sep",
+                    "new": 2
+                },
+                {
+                    "month": "Aug",
+                    "new": 6
+                },
+                {
+                    "month": "Jul",
+                    "new": 2
+                },
+                {
+                    "month": "Jun",
+                    "new": 17
+                }
+            ],
+            "Primary education": [
+                {
+                    "month": "Jun",
+                    "new": 4
+                },
+                {
+                    "month": "May",
+                    "new": 4
+                },
+                {
+                    "month": "Apr",
+                    "new": 7
+                },
+                {
+                    "month": "Mar",
+                    "new": 1
+                },
+                {
+                    "month": "Feb",
+                    "new": 2
+                },
+                {
+                    "month": "Jan",
+                    "new": 4
+                },
+                {
+                    "month": "Dec",
+                    "new": 7
+                },
+                {
+                    "month": "Nov",
+                    "new": 4
+                },
+                {
+                    "month": "Oct",
+                    "new": 1
+                },
+                {
+                    "month": "Sep",
+                    "new": 0
+                },
+                {
+                    "month": "Aug",
+                    "new": 0
+                },
+                {
+                    "month": "Jul",
+                    "new": 7
+                },
+                {
+                    "month": "Jun",
+                    "new": 47
+                }
+            ],
+            "Lower secondary education": [
+                {
+                    "month": "Jun",
+                    "new": 5
+                },
+                {
+                    "month": "May",
+                    "new": 6
+                },
+                {
+                    "month": "Apr",
+                    "new": 1
+                },
+                {
+                    "month": "Mar",
+                    "new": 3
+                },
+                {
+                    "month": "Feb",
+                    "new": 5
+                },
+                {
+                    "month": "Jan",
+                    "new": 0
+                },
+                {
+                    "month": "Dec",
+                    "new": 2
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 5
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 4
+                },
+                {
+                    "month": "Jun",
+                    "new": 94
+                }
+            ],
+            "Upper secondary education": [
+                {
+                    "month": "Jun",
+                    "new": 5
+                },
+                {
+                    "month": "May",
+                    "new": 0
+                },
+                {
+                    "month": "Apr",
+                    "new": 5
+                },
+                {
+                    "month": "Mar",
+                    "new": 5
+                },
+                {
+                    "month": "Feb",
+                    "new": 2
+                },
+                {
+                    "month": "Jan",
+                    "new": 6
+                },
+                {
+                    "month": "Dec",
+                    "new": 2
+                },
+                {
+                    "month": "Nov",
+                    "new": 1
+                },
+                {
+                    "month": "Oct",
+                    "new": 0
+                },
+                {
+                    "month": "Sep",
+                    "new": 6
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 5
+                },
+                {
+                    "month": "Jun",
+                    "new": 60
+                }
+            ],
+            "Post-secondary non-tertiary education": [
+                {
+                    "month": "Jun",
+                    "new": 5
+                },
+                {
+                    "month": "May",
+                    "new": 1
+                },
+                {
+                    "month": "Apr",
+                    "new": 4
+                },
+                {
+                    "month": "Mar",
+                    "new": 7
+                },
+                {
+                    "month": "Feb",
+                    "new": 0
+                },
+                {
+                    "month": "Jan",
+                    "new": 0
+                },
+                {
+                    "month": "Dec",
+                    "new": 2
+                },
+                {
+                    "month": "Nov",
+                    "new": 4
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 6
+                },
+                {
+                    "month": "Aug",
+                    "new": 1
+                },
+                {
+                    "month": "Jul",
+                    "new": 4
+                },
+                {
+                    "month": "Jun",
+                    "new": 91
+                }
+            ],
+            "Short-cycle tertiaty education": [
+                {
+                    "month": "Jun",
+                    "new": 0
+                },
+                {
+                    "month": "May",
+                    "new": 5
+                },
+                {
+                    "month": "Apr",
+                    "new": 2
+                },
+                {
+                    "month": "Mar",
+                    "new": 3
+                },
+                {
+                    "month": "Feb",
+                    "new": 8
+                },
+                {
+                    "month": "Jan",
+                    "new": 1
+                },
+                {
+                    "month": "Dec",
+                    "new": 6
+                },
+                {
+                    "month": "Nov",
+                    "new": 4
+                },
+                {
+                    "month": "Oct",
+                    "new": 2
+                },
+                {
+                    "month": "Sep",
+                    "new": 5
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 5
+                },
+                {
+                    "month": "Jun",
+                    "new": 46
+                }
+            ],
+            "Bachelor or equivalent": [
+                {
+                    "month": "Jun",
+                    "new": 4
+                },
+                {
+                    "month": "May",
+                    "new": 2
+                },
+                {
+                    "month": "Apr",
+                    "new": 6
+                },
+                {
+                    "month": "Mar",
+                    "new": 4
+                },
+                {
+                    "month": "Feb",
+                    "new": 4
+                },
+                {
+                    "month": "Jan",
+                    "new": 2
+                },
+                {
+                    "month": "Dec",
+                    "new": 3
+                },
+                {
+                    "month": "Nov",
+                    "new": 1
+                },
+                {
+                    "month": "Oct",
+                    "new": 5
+                },
+                {
+                    "month": "Sep",
+                    "new": 4
+                },
+                {
+                    "month": "Aug",
+                    "new": 2
+                },
+                {
+                    "month": "Jul",
+                    "new": 3
+                },
+                {
+                    "month": "Jun",
+                    "new": 55
+                }
+            ],
+            "Master or equivalent": [
+                {
+                    "month": "Jun",
+                    "new": 3
+                },
+                {
+                    "month": "May",
+                    "new": 4
+                },
+                {
+                    "month": "Apr",
+                    "new": 6
+                },
+                {
+                    "month": "Mar",
+                    "new": 4
+                },
+                {
+                    "month": "Feb",
+                    "new": 4
+                },
+                {
+                    "month": "Jan",
+                    "new": 2
+                },
+                {
+                    "month": "Dec",
+                    "new": 3
+                },
+                {
+                    "month": "Nov",
+                    "new": 4
+                },
+                {
+                    "month": "Oct",
+                    "new": 5
+                },
+                {
+                    "month": "Sep",
+                    "new": 2
+                },
+                {
+                    "month": "Aug",
+                    "new": 5
+                },
+                {
+                    "month": "Jul",
+                    "new": 4
+                },
+                {
+                    "month": "Jun",
+                    "new": 49
+                }
+            ],
+            "Doctoral or equivalent": [
+                {
+                    "month": "Jun",
+                    "new": 3
+                },
+                {
+                    "month": "May",
+                    "new": 2
+                },
+                {
+                    "month": "Apr",
+                    "new": 4
+                },
+                {
+                    "month": "Mar",
+                    "new": 5
+                },
+                {
+                    "month": "Feb",
+                    "new": 6
+                },
+                {
+                    "month": "Jan",
+                    "new": 7
+                },
+                {
+                    "month": "Dec",
+                    "new": 2
+                },
+                {
+                    "month": "Nov",
+                    "new": 3
+                },
+                {
+                    "month": "Oct",
+                    "new": 3
+                },
+                {
+                    "month": "Sep",
+                    "new": 5
+                },
+                {
+                    "month": "Aug",
+                    "new": 3
+                },
+                {
+                    "month": "Jul",
+                    "new": 5
+                },
+                {
+                    "month": "Jun",
+                    "new": 66
+                }
+            ]
+        },
+        "edLevelTopic": {
+            "General programs": {
+                "Early childhood education": 2,
+                "Primary education": 0,
+                "Lower secondary education": 8,
+                "Upper secondary education": 4,
+                "Post-secondary non-tertiary education": 1,
+                "Short-cycle tertiaty education": 6,
+                "Bachelor or equivalent": 4,
+                "Master or equivalent": 0,
+                "Doctoral or equivalent": 3
+            },
+            "Education": {
+                "Early childhood education": 2,
+                "Primary education": 7,
+                "Lower secondary education": 2,
+                "Upper secondary education": 4,
+                "Post-secondary non-tertiary education": 7,
+                "Short-cycle tertiaty education": 2,
+                "Bachelor or equivalent": 3,
+                "Master or equivalent": 7,
+                "Doctoral or equivalent": 4
+            },
+            "Agriculture": {
+                "Early childhood education": 1,
+                "Primary education": 3,
+                "Lower secondary education": 2,
+                "Upper secondary education": 7,
+                "Post-secondary non-tertiary education": 2,
+                "Short-cycle tertiaty education": 3,
+                "Bachelor or equivalent": 1,
+                "Master or equivalent": 2,
+                "Doctoral or equivalent": 7
+            },
+            "Services": {
+                "Early childhood education": 3,
+                "Primary education": 2,
+                "Lower secondary education": 5,
+                "Upper secondary education": 1,
+                "Post-secondary non-tertiary education": 4,
+                "Short-cycle tertiaty education": 7,
+                "Bachelor or equivalent": 7,
+                "Master or equivalent": 0,
+                "Doctoral or equivalent": 9
+            },
+            "Health and welfare": {
+                "Early childhood education": 0,
+                "Primary education": 4,
+                "Lower secondary education": 2,
+                "Upper secondary education": 4,
+                "Post-secondary non-tertiary education": 7,
+                "Short-cycle tertiaty education": 0,
+                "Bachelor or equivalent": 3,
+                "Master or equivalent": 1,
+                "Doctoral or equivalent": 1
+            },
+            "Humanities and art": {
+                "Early childhood education": 4,
+                "Primary education": 3,
+                "Lower secondary education": 5,
+                "Upper secondary education": 1,
+                "Post-secondary non-tertiary education": 4,
+                "Short-cycle tertiaty education": 2,
+                "Bachelor or equivalent": 4,
+                "Master or equivalent": 0,
+                "Doctoral or equivalent": 0
+            },
+            "Social sciences, business and law": {
+                "Early childhood education": 0,
+                "Primary education": 0,
+                "Lower secondary education": 5,
+                "Upper secondary education": 5,
+                "Post-secondary non-tertiary education": 3,
+                "Short-cycle tertiaty education": 2,
+                "Bachelor or equivalent": 4,
+                "Master or equivalent": 2,
+                "Doctoral or equivalent": 4
+            },
+            "Engineering, manufacturing and construction": {
+                "Early childhood education": 7,
+                "Primary education": 7,
+                "Lower secondary education": 6,
+                "Upper secondary education": 2,
+                "Post-secondary non-tertiary education": 3,
+                "Short-cycle tertiaty education": 1,
+                "Bachelor or equivalent": 4,
+                "Master or equivalent": 3,
+                "Doctoral or equivalent": 2
+            },
+            "Science": {
+                "Early childhood education": 4,
+                "Primary education": 9,
+                "Lower secondary education": 6,
+                "Upper secondary education": 4,
+                "Post-secondary non-tertiary education": 0,
+                "Short-cycle tertiaty education": 2,
+                "Bachelor or equivalent": 1,
+                "Master or equivalent": 1,
+                "Doctoral or equivalent": 4
+            }
+        }
+    },
+    "averageSession": {
+        "Create": 22,
+        "My designs": 9,
+        "Explore": 7,
+        "Community": 11,
+        "Analytics": 2
+    },
+    "listUsers": [
+        {
+            "name": "Marc Pérez",
+            "designs": 6,
+            "comments": 9,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/ldshakers/victor.diazdeburgos/"
+        },
+        {
+            "name": "Julia Santos",
+            "designs": 3,
+            "comments": 5,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/ldshakers/victor.diazdeburgos/"
+        },
+        {
+            "name": "Cristina González",
+            "designs": 5,
+            "comments": 4,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/ldshakers/victor.diazdeburgos/"
+        },
+        {
+            "name": "Iván Heras",
+            "designs": 2,
+            "comments": 14,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/ldshakers/victor.diazdeburgos/"
+        },
+        {
+            "name": "Pepe Pérez",
+            "designs": 1,
+            "comments": 3,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/ldshakers/victor.diazdeburgos/"
+        }
+    ],
+    "listDesigns": [
+        {
+            "title": "History of art",
+            "topic": "Humanities and art",
+            "edLevel": "Upper secondary education",
+            "views": 16,
+            "reuse": 2,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/lds/viewedcrumble/22859/"
+        },
+        {
+            "title": "English C1",
+            "topic": "General Programs",
+            "edLevel": "Bachelor or equivalent",
+            "views": 7,
+            "reuse": 1,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/lds/viewedcrumble/22859/"
+        },
+        {
+            "title": "Backend",
+            "topic": "Engineering, manufacturing and construction",
+            "edLevel": "Master or equivalent education",
+            "views": 8,
+            "reuse": 2,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/lds/viewedcrumble/22859/"
+        },
+        {
+            "title": "Microeconomics",
+            "topic": "Socail sciences, business and law",
+            "edLevel": "Bachelor or equivalent",
+            "views": 11,
+            "reuse": 4,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/lds/viewedcrumble/22859/"
+        },
+        {
+            "title": "Introduction to Machine Learning",
+            "topic": "Engineering, manufacturing and construction",
+            "edLevel": "Master or equivalent",
+            "views": 9,
+            "reuse": 0,
+            "link": "https://ilde2.upf.edu/edcrumble/pg/lds/viewedcrumble/22859/"
+        }
+    ]
+}

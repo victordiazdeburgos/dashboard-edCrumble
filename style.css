@@ -1,0 +1,44 @@
+body{
+    margin: 15px;
+}
+
+.section {
+    border: 1px solid #cecece;
+    margin-top: 10px; /* També vull que hi hagi marge amb les altres seccions horitzontalment ------------------------------------------------------------- */
+}
+
+/* Top users and designs lists*/
+.list-tops{
+    list-style-type:none;
+    padding:0px;
+}
+.subtitle-tops{
+    margin-block-end: 2px;
+}
+.list-tops > li{ /* applies to li direct childs of a class list-tops */
+    display:flex;
+    align-items: center;
+}
+.item-name{
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-number{
+    font-weight: lighter;
+    margin-left: 2px;
+}
+
+.title-chart{
+    font-family: "'Helvetica Neue', Helvetica, Arial, sans-serif";
+    font-size: 23px;
+    font-weight: bold;
+    color: #B0B0B0;
+    text-align: center;
+}
+
+.select-box{
+    width: 220px;
+    margin: 6px;
+}

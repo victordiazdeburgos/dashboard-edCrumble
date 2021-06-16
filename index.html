@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dashboard Platform</title>
+</head>
+
+<body>
+
+    <script src="readJson.js"></script>
+    <script>
+        var jsonData;
+        function jsonIntoVariable(json) {
+            jsonData = json;
+        }
+        readJson().then(jsonIntoVariable);
+    </script>
+
+    <!-- <div class="container.fluid"> -->
+    <div class="container">
+        <div class="row section">
+            <div class="col">
+                <h2><span id="numUsers"></span> Users</h2>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-bs-target="#totUsersTab" data-bs-toggle="tab" type="button"
+                            role="tab">Total</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-target="#groUsersTab" data-bs-toggle="tab" type="button"
+                            role="tab">Growth</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="usersTabContent">
+                    <div class="tab-pane show active" id="totUsersTab" role="tabpanel">
+                        <canvas id="totalUsers"></canvas>
+                    </div>
+                    <div class="tab-pane" id="groUsersTab" role="tabpanel">
+                        <canvas id="growthUsers"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h2><span id="numVisits"></span> Visits</h2>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-bs-target="#totVisitsTab" data-bs-toggle="tab"
+                            type="button" role="tab">Total</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-target="#groVisitsTab" data-bs-toggle="tab" type="button"
+                            role="tab">Growth</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="usersTabContent">
+                    <div class="tab-pane show active" id="totVisitsTab" role="tabpanel">
+                        <canvas id="totalVisits"></canvas>
+                    </div>
+                    <div class="tab-pane" id="groVisitsTab" role="tabpanel">
+                        <canvas id="growthVisits"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h2><span id="numDesigns"></span> Designs</h2>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-bs-target="#totDesignsTab" data-bs-toggle="tab"
+                            type="button" role="tab">Total</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-target="#groDesignsTab" data-bs-toggle="tab" type="button"
+                            role="tab">Growth</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="usersTabContent">
+                    <div class="tab-pane show active" id="totDesignsTab" role="tabpanel">
+                        <canvas id="totalDesigns"></canvas>
+                    </div>
+                    <div class="tab-pane" id="groDesignsTab" role="tabpanel">
+                        <canvas id="growthDesigns"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 section">
+                <div class="row">
+                    <h2 class="text-right">
+                        Average session duration <span style="font-weight: lighter;"><span id="totTimeSession"></span>
+                            min</span>
+                    </h2>
+                    <div class="title-chart">Time spent on each window</div>
+                    <canvas id="timeSessions"></canvas>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-12">
+                        <h3 class="text-center">Top Users</h3>
+                    </div>
+                    <div class="col-6">
+                        <p class="text-center subtitle-tops">Top contributors</p>
+                        <ul class="list-tops">
+                            <li>
+                                <a id="nameContributor1" class="item-name" target="_blank"></a>
+                                <span id="numDesigns1" class="item-number"></span>
+                            </li>
+                            <li>
+                                <a id="nameContributor2" class="item-name" target="_blank"></a>
+                                <span id="numDesigns2" class="item-number"></span>
+                            </li>
+                            <li>
+                                <a id="nameContributor3" class="item-name" target="_blank"></a>
+                                <span id="numDesigns3" class="item-number"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <p class="text-center subtitle-tops">Top commenters</p>
+                        <ul class="list-tops">
+                            <li class="flex-parent">
+                                <a id="nameCommenter1" class="item-name" target="_blank"></a>
+                                <span id="numComments1" class="item-number"></span>
+                            </li>
+                            <li class="flex-parent">
+                                <a id="nameCommenter2" class="item-name" target="_blank"></a>
+                                <span id="numComments2" class="item-number"></span>
+                            </li>
+                            <li class="flex-parent">
+                                <a id="nameCommenter3" class="item-name" target="_blank"></a>
+                                <span id="numComments3" class="item-number"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">Top Designs</h3>
+                    </div>
+                    <div class="col-6">
+                        <p class="text-center subtitle-tops">Most viewed</p>
+                        <ul class="list-tops">
+                            <li>
+                                <a id="titleViews1" class="item-name" target="_blank"></a>
+                                <span id="views1" class="item-number"></span>
+                            </li>
+                            <li>
+                                <a id="titleViews2" class="item-name" target="_blank"></a>
+                                <span id="views2" class="item-number"></span>
+                            </li>
+                            <li>
+                                <a id="titleViews3" class="item-name" target="_blank"></a>
+                                <span id="views3" class="item-number"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <p class="text-center subtitle-tops">Most reused</p>
+                        <ul class="list-tops">
+                            <li>
+                                <a id="titleReuse1" class="item-name" target="_blank"></a>
+                                <span id="reuse1" class="item-number"></span>
+                            </li>
+                            <li>
+                                <a id="titleReuse2" class="item-name" target="_blank"></a>
+                                <span id="reuse2" class="item-number"></span>
+                            </li>
+                            <li>
+                                <a id="titleReuse3" class="item-name" target="_blank"></a>
+                                <span id="reuse3" class="item-number"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row section">
+                    <div class="col-12">
+                        <h2 class="text-center">Type of designs by topic</h2>
+                    </div>
+                    <div class="col-3">
+                        <div class="title-chart">Total</div>
+                        <canvas id="designsTopicTotal"></canvas>
+                    </div>
+                    <div class="col-6">
+                        <div class="title-chart">By month of creation</div>
+                        <canvas id="designsTopicTime" height="200"></canvas>
+                    </div>
+                    <div class="col-3">
+                        <div class="title-chart">By educational level</div>
+                        <div class="d-flex justify-content-center">
+                            <select class="dropdown-edLevel select-box" id="ddEdLevels"
+                                onchange="(updateEdLevel(chartdesignsTopicEdLevel))">
+                                <option value="0">Early childhood education</option>
+                                <option value="1">Primary education</option>
+                                <option value="2">Lower secondary education</option>
+                                <option value="3">Upper secondary education</option>
+                                <option value="4">Post-secondary non-tertiary education</option>
+                                <option value="5">Short-cycle tertiaty education</option>
+                                <option value="6">Bachelor or equivalent</option>
+                                <option value="7">Master or equivalent</option>
+                                <option value="8">Doctoral or equivalent</option>
+                            </select>
+                        </div>
+                        <canvas id="designsTopicEdLevel"></canvas>
+                    </div>
+                </div>
+                <div class="row section">
+                    <div class="col-12">
+                        <h2 class="text-center">Type of designs by educational level</h2>
+                    </div>
+                    <div class="col-3">
+                        <div class="title-chart">Total</div>
+                        <canvas id="designsEdLevelTotal"></canvas>
+                    </div>
+                    <div class="col-6">
+                        <div class="title-chart">By month of creation</div>
+                        <canvas id="designsEdLevelTime" height="200"></canvas>
+                    </div>
+                    <div class="col-3">
+                        <div class="title-chart">By topic</div>
+                        <div class="d-flex justify-content-center">
+                            <select class="dropdown-topic select-box" id="ddTopics"
+                                onchange="updateTopic(chartdesignsEdLevelTopic)">
+                                <!-- <select class="dropdown-topic select-box" id="ddTopics"
+                                onchange="readData(jsonData.then())"> -->
+                                <option value="0">General programs</option>
+                                <option value="1">Education</option>
+                                <option value="2">Agriculture</option>
+                                <option value="3">Services</option>
+                                <option value="4">Health and welfare</option>
+                                <option value="5">Humanities and art</option>
+                                <option value="6">Social sciences, business and law</option>
+                                <option value="7">Engineering, manufacturing and construction</option>
+                                <option value="8">Science</option>
+                            </select>
+                        </div>
+                        <canvas id="designsEdLevelTopic"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript library chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js"></script>
+
+    <!-- plugin to be able to zoom charts -->
+    <!-- <script src="../Plugins/chartjs-plugin-zoom/dist/chartjs-plugin-zoom.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script> -->
+
+    <!-- plugin to add extra funtionalities to the zoom plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <!-- Bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+
+    <!-- Database in a Json file -->
+    <script type="application/json" src="data.json"></script>
+
+    <!-- Javascript funtions to draw the charts -->
+    <script src="charts.js"></script>
+
+    <!-- Futnions to draw the charts -->
+    <script>
+        var chartdesignsTopicEdLevel, chartdesignsEdLevelTopic;
+        setTimeout(() => {
+            // This is needed to give time to the data from the json file to be stored in the variable jsonData
+
+            // Data form json variable into each of the required variables of each chart
+            readData(jsonData);
+
+            // Draw the charts
+            users();
+            visits();
+            designs();
+            designsTopicTotal();
+            designsTopicTime();
+            chartdesignsTopicEdLevel = designsTopicEdLevel();
+            designsEdLevelTotal();
+            designsEdLevelTime();
+            chartdesignsEdLevelTopic = designsEdLevelTopic();
+            timeSessions();
+            listTopContributors();
+            listTopCommenters();
+            listMostViewed();
+            listMostReused();
+        }, 1);
+
+    </script>
+
+</body>
+
+</html>
