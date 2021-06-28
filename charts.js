@@ -335,6 +335,8 @@ function designsTopicEdLevel() {
 
     var selected = document.getElementById("ddEdLevels").value;
 
+    document.getElementById("numDesignsByEdLevel").innerHTML = dataEdLevelsTotal[selected]; // Display number of designs of the selected educational level
+
     var chartTopicEdLevel = new Chart(canvasTopicEdLevel, {
         type: 'doughnut',
         data: {
@@ -370,6 +372,7 @@ function updateEdLevel(chartTopicEdLevel) {
     var selected = document.getElementById("ddEdLevels").value;
     chartTopicEdLevel.data.datasets[0].data = dataTopicEdLevel[selected];
     chartTopicEdLevel.update();
+    document.getElementById("numDesignsByEdLevel").innerHTML = dataEdLevelsTotal[selected]; // Display number of designs of the selected educational level
 }
 
 // TYPE OF DESIGNS BY EDUCATIONAL LEVEL
@@ -496,13 +499,17 @@ function designsEdLevelTime() {
 function designsEdLevelTopic() {
     var canvasEdLevelTopic = document.getElementById("designsEdLevelTopic").getContext("2d");
 
+    var selected = document.getElementById("ddTopics").value;
+
+    document.getElementById("numDesignsByTopic").innerHTML = dataTopicsTotal[selected]; // Display number of designs of the selected topic
+
     var chartEdLevelTopic = new Chart(canvasEdLevelTopic, {
         type: 'doughnut',
         data: {
             labels: edLevels,
             datasets: [{
                 label: 'Designs',
-                data: dataEdLevelTopic[4],
+                data: dataEdLevelTopic[selected],
                 backgroundColor: nineColors,
                 hoverOffset: 10
             }
@@ -531,6 +538,7 @@ function updateTopic(chartEdLevelTopic) {
     var selected = document.getElementById("ddTopics").value;
     chartEdLevelTopic.data.datasets[0].data = dataTopicEdLevel[selected];
     chartEdLevelTopic.update();
+    document.getElementById("numDesignsByTopic").innerHTML = dataTopicsTotal[selected]; // Display number of designs of the selected topic
 }
 
 // CHART TIME SPENT ON EACH MENU
